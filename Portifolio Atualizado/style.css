@@ -1,0 +1,237 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.principal {
+    height: 100vh;
+    width: 100%;
+    background-image:url(./HUB\ COVER\ \(18\).webp);
+    background-size: cover;
+    background-position: center;
+    background-color: #8c2b77;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+.portifolio{
+    color:pink;
+    font-size: 40px;
+   
+}
+.portifolio span{
+    color:rgb(242, 99, 242);
+}
+li{
+    color:pink;
+    font-size: 25px;
+    list-style: none;
+    display:inline-block;
+    padding:20px;
+    cursor:pointer;
+
+
+}
+.link-menu{
+    text-decoration: none;
+    color: pink;
+
+}
+
+li :hover{
+    color:blueviolet;
+    transition: 0.5s;
+}
+ .meunome{
+    position: absolute;
+    top:50%;
+    left:7%;
+ }
+h2{
+    color:pink;
+    font-size: 70px;
+    margin-bottom:20px;
+    
+}
+h2 span{
+    color:rgb(242, 99, 242);
+}
+.meunome h3{
+    color:rgb(227, 113, 162);
+}
+.sobremim {
+    display:flex;
+    align-items: center;
+    padding: 60px 0 ;
+    background-color: #46153c;
+    
+}
+.sobremim img{
+    height: 300px;
+    border-radius: 100%;
+    border:2px solid #c28ab6;
+    margin:60px;
+    margin-top: 20px;
+}
+.sobremim div h2{
+color: pink;
+font-size:75px;
+margin:30px;
+}
+.sobremim div p{
+    color: white;
+    font-size: 20px;
+    margin: 30px;
+    margin-top: 05%;
+
+}
+button{
+    color:white;
+    font-size: 15px;
+    background-color: pink;
+    height: 40px;
+    width: 150px;
+    margin: 30px;
+    border:none;
+    border-radius: 20px;
+}
+button:hover{
+    color:blueviolet;
+    transition: 0.5s;
+    cursor: pointer;
+    border:2px solid;
+
+}
+.projetos{
+    background-color:#8c2b77 ;
+    padding-top: 50px;
+    padding-bottom: 100px;
+ 
+}
+.projetos h2{
+    color:pink;
+font-size: 75px;
+text-align: center;
+
+}
+.card{
+    background-color:white;
+    height: 365px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px 35px;
+    margin:20px 35px;
+    text-align:center;
+    
+}
+
+.card img{
+height: 100px;
+
+
+}
+
+
+
+.card h5{
+    color:pink;
+    font-size: 24px;
+    padding:10px;
+
+}
+.card p{
+    color:#8c2b77;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.card a{
+    background-color:pink;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor:pointer;
+    text-decoration: none ;
+    margin-top: 20px;
+
+}
+.card a:hover{
+    background-color: transparent;
+    border:2px solid;
+    transition: 0.5s;
+}
+.cardprojetos{
+    display:flex;
+    justify-content:center;
+    margin:05px;
+   
+    
+
+    
+    
+}
+
+footer{
+    background-color:#46153c;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+footer h5{
+    color:pink;
+    font-size: 30px;
+    
+}
+footer p {
+    color:white;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 24px;
+}
+.social img{
+height: 24px;
+border-radius: 50%;
+
+}
+.social a {
+    background-color:pink;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  cursor: pointer;
+ 
+ 
+ 
+}
+.social {
+    display: flex;
+    gap:20px
+}
+.social a :hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+h5 span {
+ color:   rgb(227, 113, 162);
+}
+.carrosel {
+    box-shadow: 2px 2px;
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+}
+.container{
+    display:flex;
+    transition: transform 0,5s;
+}
